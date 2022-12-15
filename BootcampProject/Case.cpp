@@ -11,10 +11,6 @@ char hashName[MAX_BUCKET][MAX_CHAR];
 int hashPrice[MAX_BUCKET];
 int hashQuan[MAX_BUCKET];
 
-int hashQuantity[MAX_BUCKET];
-char hashMAKANAN[MAX_BUCKET][MAX_ORDER][MAX_CHAR];
-int hashJUMLAHMAKANAN[MAX_BUCKET][MAX_ORDER];
-
 struct Node{
     char dishName[255];
     int dishPrice;
